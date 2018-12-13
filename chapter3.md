@@ -10,7 +10,7 @@
 m_khOpenApi.CommConnect();
 ```
 
-붙이면 되겠습니다 .   
+붙이면 되겠습니다 .  
 ![](/assets/import31.png)
 
 ![](/assets/import31.png)
