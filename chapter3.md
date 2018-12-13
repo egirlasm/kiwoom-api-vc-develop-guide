@@ -24,3 +24,5 @@ m_khOpenApi.CommConnect();
 
 #### 그럼 다음장으로 넘어가겠습니다.
 
+
+
