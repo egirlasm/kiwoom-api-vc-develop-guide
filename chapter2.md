@@ -14,7 +14,7 @@ Dialog 화면에서 마우스 오른쪽버튼 클릭하면 메뉴가 나옵니�
 
 ![](/assets/import25.png)
 
-변수명은 m\_khOpenApi 로 해주시면 될거 같습니다.물론 다른 이름으로 지어도 됩니다.
+##### 변수명은 m\_khOpenApi 로 해주시면 될거 같습니다.물론 다른 이름으로 지어도 됩니다.
 
 ![](/assets/import27.png)
 
