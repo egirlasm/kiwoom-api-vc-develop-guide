@@ -12,7 +12,7 @@
 
 ![](/assets/import1.png)
 
-### 참고로 KOA Studio는 개발용 api 함수 문서및 테스트 툴이라고 보면 되겠습니다.
+### 참고로 KOA Studio는 키움개발용 api 함수 문서및 테스트 툴이라고 보면 되겠습니다.
 
 
 
