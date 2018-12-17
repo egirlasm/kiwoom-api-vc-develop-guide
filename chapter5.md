@@ -11,14 +11,14 @@
 // BEGIN_EVENTSINK_MAP
 //*******************************************************************/
 BEGIN_EVENTSINK_MAP(CXXXXXXXX, CDialogEx)
-    ON_EVENT(CshootStockDlg, IDC_KHOPENAPICTRL1, 1, OnReceiveTrDataKhopenapictrl,    VTS_BSTR VTS_BSTR VTS_BSTR VTS_BSTR VTS_BSTR VTS_I4 VTS_BSTR VTS_BSTR VTS_BSTR)
-    ON_EVENT(CshootStockDlg, IDC_KHOPENAPICTRL1, 2, OnReceiveRealDataKhopenapictrl,    VTS_BSTR VTS_BSTR VTS_BSTR)
-    ON_EVENT(CshootStockDlg, IDC_KHOPENAPICTRL1, 3, OnReceiveMsgKhopenapictrl,        VTS_BSTR VTS_BSTR VTS_BSTR VTS_BSTR )
-    ON_EVENT(CshootStockDlg, IDC_KHOPENAPICTRL1, 4, OnReceiveChejanData,                VTS_BSTR VTS_I4 VTS_BSTR)
-    ON_EVENT(CshootStockDlg, IDC_KHOPENAPICTRL1, 5, OnEventConnect,                    VTS_I4)
-    ON_EVENT(CshootStockDlg, IDC_KHOPENAPICTRL1, 7, OnReceiveRealCondition,            VTS_BSTR VTS_BSTR VTS_BSTR VTS_BSTR)
-    ON_EVENT(CshootStockDlg, IDC_KHOPENAPICTRL1, 8, OnReceiveTrCondition,            VTS_BSTR VTS_BSTR VTS_BSTR VTS_I2 VTS_I2)
-    ON_EVENT(CshootStockDlg, IDC_KHOPENAPICTRL1, 9, OnReceiveConditionVer,            VTS_I4 VTS_BSTR)
+    ON_EVENT(CXXXXXXXX, IDC_KHOPENAPICTRL1, 1, OnReceiveTrDataKhopenapictrl,    VTS_BSTR VTS_BSTR VTS_BSTR VTS_BSTR VTS_BSTR VTS_I4 VTS_BSTR VTS_BSTR VTS_BSTR)
+    ON_EVENT(CXXXXXXXX, IDC_KHOPENAPICTRL1, 2, OnReceiveRealDataKhopenapictrl,    VTS_BSTR VTS_BSTR VTS_BSTR)
+    ON_EVENT(CXXXXXXXX, IDC_KHOPENAPICTRL1, 3, OnReceiveMsgKhopenapictrl,        VTS_BSTR VTS_BSTR VTS_BSTR VTS_BSTR )
+    ON_EVENT(CXXXXXXXX, IDC_KHOPENAPICTRL1, 4, OnReceiveChejanData,                VTS_BSTR VTS_I4 VTS_BSTR)
+    ON_EVENT(CXXXXXXXX, IDC_KHOPENAPICTRL1, 5, OnEventConnect,                    VTS_I4)
+    ON_EVENT(CXXXXXXXX, IDC_KHOPENAPICTRL1, 7, OnReceiveRealCondition,            VTS_BSTR VTS_BSTR VTS_BSTR VTS_BSTR)
+    ON_EVENT(CXXXXXXXX, IDC_KHOPENAPICTRL1, 8, OnReceiveTrCondition,            VTS_BSTR VTS_BSTR VTS_BSTR VTS_I2 VTS_I2)
+    ON_EVENT(CXXXXXXXX, IDC_KHOPENAPICTRL1, 9, OnReceiveConditionVer,            VTS_I4 VTS_BSTR)
 END_EVENTSINK_MAP()
 ```
 
@@ -31,8 +31,6 @@ jenkins 테스트
 메이크 빌드 ㅌㅅㅌ11
 
 메일 테스트
-
-
 
 메일 테스트
 
