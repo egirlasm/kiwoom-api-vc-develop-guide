@@ -200,5 +200,7 @@ void CMFCApplication2Dlg::OnEventConnect(LONG nItemCnt)
 
 그리고나서 디버깅 창을 보며는 연결이 됬는지 안됏는지 나옵니다.
 
+순서: F5빌드실행 -&gt; OK -&gt; 비밀번호입력 -&gt; 로그인 -&gt; 콘솔창 보면 저렇게 연결이 됬다고 뜹니다.
+
 ![](/assets/import52.png)
 
