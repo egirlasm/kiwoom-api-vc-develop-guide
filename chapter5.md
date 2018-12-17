@@ -49,8 +49,6 @@ END_EVENTSINK_MAP()
 
 또붙이고
 
-
-
 ```
 // CMFCApplication2Dlg message handlers
 void CMFCApplication2Dlg::MainOnReceiveTrDataKhopenapictrl(LPCTSTR sScrNo, LPCTSTR sRQName, LPCTSTR sTrcode, LPCTSTR sRecordName, LPCTSTR sPrevNext, long nDataLength, LPCTSTR sErrorCode, LPCTSTR sMessage, LPCTSTR sSplmMsg) {
@@ -117,7 +115,7 @@ void CMFCApplication2Dlg::OnReceiveRealDataKhopenapictrl(LPCTSTR sJongmokCode, L
 //! Comment       : 
 //******************************************************************/
 void CMFCApplication2Dlg::MainOnReceiveChejanData(LPCTSTR sGubun, LONG nItemCnt, LPCTSTR sFidList) {
-	CString strGuBun(sGubun), strAccNo, strAcc;
+    CString strGuBun(sGubun), strAccNo, strAcc;
 
 }
 //*******************************************************************/
@@ -147,13 +145,13 @@ void CMFCApplication2Dlg::OnReceiveRealCondition(LPCTSTR strCode, LPCTSTR strTyp
 }
 
 //*******************************************************************/
-//! Function Name	: OnReceiveTrCondition
-//! Function			: 조건검색 종목조회 응답
-//! Param				: LPCTSTR sScrNo					- 화면번호
-//!						: LPCTSTR strCodeList			- 종목리스트
-//!						: LPCTSTR strConditionName	- 조건명
-//!						: int nIndex								- 조건명인덱스
-//!						: int nNext								- 연속조회여부(2: 연속조회, 0:연속조회없음)
+//! Function Name    : OnReceiveTrCondition
+//! Function            : 조건검색 종목조회 응답
+//! Param                : LPCTSTR sScrNo                    - 화면번호
+//!                        : LPCTSTR strCodeList            - 종목리스트
+//!                        : LPCTSTR strConditionName    - 조건명
+//!                        : int nIndex                                - 조건명인덱스
+//!                        : int nNext                                - 연속조회여부(2: 연속조회, 0:연속조회없음)
 //! Return        : void
 //! Create        : , 2015/04/20
 //! Comment       : 
@@ -163,10 +161,10 @@ void CMFCApplication2Dlg::OnReceiveTrCondition(LPCTSTR sScrNo, LPCTSTR strCodeLi
 
 }
 //*******************************************************************/
-//! Function Name	: OnReceiveConditionVer
-//! Function			: 사용자 조건식 응답
-//! Param				: BOOL bRet							- 성공(TRUE), 실패(FALSE)
-//!						: LPCTSTR sMsg					- 메세지(reserved)
+//! Function Name    : OnReceiveConditionVer
+//! Function            : 사용자 조건식 응답
+//! Param                : BOOL bRet                            - 성공(TRUE), 실패(FALSE)
+//!                        : LPCTSTR sMsg                    - 메세지(reserved)
 //! Return        : void
 //! Create        : , 2015/04/20
 //! Comment       : 
@@ -186,15 +184,14 @@ void CMFCApplication2Dlg::OnReceiveConditionVer(long lRet, LPCTSTR sMsg)
 //******************************************************************/
 void CMFCApplication2Dlg::OnEventConnect(LONG nItemCnt)
 { 
-	if (nItemCnt == 0)
-	{
-		// 접속 정상처리
-		OutputDebugString(L"키움증권서버에 성공적으로 연결되었습니다.");
-		CString m_AccNo = m_khOpenApi.GetLoginInfo(L"ACCLIST");
-		m_AccNo.Replace(L";", L"");
-	}
+    if (nItemCnt == 0)
+    {
+        // 접속 정상처리
+        OutputDebugString(L"키움증권서버에 성공적으로 연결되었습니다.");
+        CString m_AccNo = m_khOpenApi.GetLoginInfo(L"ACCLIST");
+        m_AccNo.Replace(L";", L"");
+    }
 }
-
 ```
 
 이렇게 다 붙이고 나서 ,또 빌드 합니다.
@@ -202,4 +199,6 @@ void CMFCApplication2Dlg::OnEventConnect(LONG nItemCnt)
 즉 F5 키를 누르면 프로그램이 실행됩니다.
 
 그리고나서 디버깅 창을 보며는 연결이 됬는지 안됏는지 나옵니다.
+
+![](/assets/import52.png)
 
