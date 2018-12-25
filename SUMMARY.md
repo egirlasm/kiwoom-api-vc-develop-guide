@@ -6,5 +6,5 @@
 * [키움증권 API 로그인](chapter3.md)
 * [키움증권 API 시세조회](chapter5.md)
 * [키움증권 API WIN32 SDK로 개발](chapter6.md)
-* [키움증권 API 전일대비등락률](d0a4-c6c0-c99d-ad8c-api-c804-c77c-b300-be44-b4f1-b77d-b960.md)
+* [키움증권 API 전일대비등락률](chapter7.md)
 
